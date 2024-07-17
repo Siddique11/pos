@@ -1,0 +1,26 @@
+from django.contrib import admin
+from .models import *
+# Register your models here.
+
+admin.site.register(Dashboard)
+admin.site.register(ProductCategory)
+admin.site.register(ProductBrand)
+admin.site.register(ProductUnit)
+admin.site.register(SellingPriceGroup)
+admin.site.register(Product)
+admin.site.register(ProductLabel)
+admin.site.register(Discount)
+admin.site.register(Sale)
+admin.site.register(SaleReturn)
+admin.site.register(Purchase)
+admin.site.register(PurchaseReturn)
+admin.site.register(Supplier)
+admin.site.register(CustomerGroup)
+admin.site.register(Customer)
+admin.site.register(ExpenseCategory)
+admin.site.register(Expense)
+admin.site.register(Counter)
+admin.site.register(Tax)
+admin.site.register(ProfitLossReport)
+admin.site.register(Manager)
+admin.site.register(Cashier)
